@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+}
+html,body,#app,#home,#loginbox{
+    height: 100%;
+    margin: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.el-submenu__title{
+    background:url("../images/2_06.png") repeat-x;
+    color: #d1d0cf;
+    height: 33px;
+    line-height: 33px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.el-menu{
+    background-color: transparent;
+    border: none;
+    width: 206px;
+    margin-left: 24px;
+  }
+  .el-aside {
+    color: #222;
+    background:url(../images/leftbg.png) repeat-y;
+    height: 100%;
+  }
+
+  /* 菜单 */
+  .el-menu{
+    background-color: transparent;
+    border: none;
+    width: 206px;
+    margin-left: 24px;
+  }
+  
+  /* 子菜单 */
+  .el-menu--inline{
+    margin-left: 0px;
+  }
+  
+  /* 子菜单的行高和高度 */
+  .el-submenu .el-menu-item{
+      height: 30px;
+      line-height: 30px;
+      border-radius: 5px 0px 0px 5px;
+      text-align: right;
+      padding: 0px 20px;
+      color: #aaa;
+      margin-bottom: 5px;
+  }
+  
+  /* 鼠标经过和焦点样式 */
+  .el-menu-item:hover, .el-menu-item:focus{
+      color: #000;
+      background-color: rgba(255, 255, 255, 1);
+  }
+  /* 激活的样式 */
+  .el-menu-item.is-active{
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* 标题 */
+
+  /* 左侧的自定义样式 */
+#leftTitle{
+    color: #d1d0cf;
+   
+}
+
+#leftTitle p{
+    text-align: right;
+    margin:20px;
+    
+}
+#leftTitle p span{
+    font-size: 20px;
+    color: #757571;
+}
+
+#leftTitle h1{
+    text-align: center;
+    font-size: 22px;
+    margin:40px auto;
+    
+}
+/* 右框hearder样式 */
+.el-container{
+    margin:20px;
+}
+
+.el-header h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.el-header span{
+    font-size: 16px;
+    color:rgb(116, 114, 114);
+}
+/* 右中 */
+.el-main{
+    margin-top: 20px;
+}
+.item .el-alert{
+    color: #585b66;
+    background-color: #dbe3ff;
+    border: 1px solid #a3b4ee;
+    margin-bottom:15px;
+}
+/* login样式 */
+
+  #loginbox {
+    width: 520px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  #loginbox input {
+    margin-right: 20px;
+  }
